@@ -27,7 +27,6 @@ public class NavigateTo implements Task {
         );
     }
 
-
     public static Task sauceDemoPage(){
         String url = "webdriver.base.url";
         return instrumented(NavigateTo.class, url);
